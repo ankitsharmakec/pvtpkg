@@ -1,11 +1,29 @@
 Package: pvtpkg
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A Simple R Package for Greetings and Basic Arithmetic Operations
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: 
+    c(person(
+        given = "Ankit",
+        family = "Sharma",
+        role = c("aut", "cre"),
+        email = "edzer.pebesma@uni-muenster.de",
+        comment = c(ORCID = "0000-0001-8049-7069")
+    ),
+    person(
+        given = "Jeroen",
+        family = "Ooms",
+        role = "ctb",
+        comment = c(ORCID = "0000-0002-4035-0289")
+    ),
+    person(
+        given = "Kirill",
+        family = "Müller",
+        role = "ctb"
+    ))
+Maintainer: Ankit Sharma <yourself@somewhere.net>
+Description: 
+    pvtpkg is a simple R package that provides functionalities for basic greetings and arithmetic operations. It includes two main functions:- `say_hello()`: This function prints "Hello, world!" to the console.- `sum_two_numbers(a, b)`: This function calculates the sum of two numbers `a` and `b`.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
